@@ -49,11 +49,9 @@ env:
         # pip packages here.
         # - PIP_DEPENDENCIES=''
 
-        # Conda packages for affiliated packages are hosted in channel
-        # "astropy" while builds for astropy LTS with recent numpy versions
-        # are in astropy-ci-extras. If your package uses either of these,
-        # add the channels to CONDA_CHANNELS along with any other channels
-        # you want to use.
+        # Conda packages for affiliated packages as well as sunpy and all
+        # dependencies not in "defaults" are hosted in channel "sunpy" add any
+        # other channels to CONDA_CHANNELS along with "sunpy".
         - CONDA_CHANNELS='sunpy'
 
         # If there are matplotlib or other GUI tests, uncomment the following
