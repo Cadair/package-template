@@ -5,7 +5,7 @@ default_context:
   long_description: "This is a rendered version of the cookiecutter Astropy package template, which you can find `here <https://github.com/astropy/package-template>`_. You can also read the `documentation <http://docs.astropy.org/projects/package-template>`_ for more details."
   author_name: "Astropy Developers"
   author_email: ""
-  license: "BSD 3-Clause"
+  license: "All"
   project_url: "http://astropy.org"
   project_version: "0.0.dev0"
   include_example_code: "y"
