@@ -24,6 +24,7 @@ jobs:
     uses: OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@v1
     with:
       artifact-path: |
-        cookies
+        cookies/
+        cookies/.*
       envs: |
         - linux: bake_cookies
